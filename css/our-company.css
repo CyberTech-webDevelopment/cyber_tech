@@ -1,0 +1,362 @@
+.container>p{
+  font-size: 22px;
+}
+.light-grey{
+  color:  #696969;
+}
+ .our-company-call-to-action{
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+  }
+  .about-us{
+    background: none;
+    width: 100%;
+    border: 1px solid #27368A;
+    background-size: 216px !important;
+  }
+  .about-us p{
+    font-size: 22px;
+    line-height: 24px;
+    padding: 0 96px;
+    color: #000
+  }
+  .trns-logo{
+  	position: absolute;
+    z-index: -2;
+    /*width: 220px;*/
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 50px;
+
+  }
+.trns-logo>img{
+     width: 58%
+  }
+.works-divs>div{
+     width: 31%;
+     margin: 70px 8px 20px;
+  }
+.works-divs .text-capitalize{
+    font-size: 20px;
+    margin: 8px 0;
+  }
+.works-divs > div{
+    font-size: 18px;
+    padding-top: 10px;
+    font-weight: bold;
+    line-height: 24px
+  }
+.lets-talk-section{
+  padding: 22px 0;
+  font-size: 22px;
+  font-weight: bold;
+  background: rgba(39, 54, 138, 0.63)
+  }
+.lets-talk-section div:nth-child(2){
+    border: 1px solid #fff;
+    border-radius: 30px
+  }
+.hexagon {
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    width: 312px;
+    /*height: 270px;*/
+    padding: 50px 0;
+    background: #27368A
+}
+.hexagon-divs>div{
+  padding: 3px;
+  line-height: 22px;
+  color: #000
+}
+.hexagon-divs .w-75{
+  font-weight: bold;
+}
+.hexagon div{
+  margin: 18px 0;
+}
+#vision, #mission{
+  width: 78px;
+  height: 54px
+}
+#values{
+  height: 54px
+}
+.hexagon-3{
+   margin-left: 28.3%;
+   margin-top: -5.5%;
+}
+.history-left{
+  width: 45%
+}
+.history-right{
+  background: #fff;
+  width: 55%
+}
+.history-right>div{
+  line-height: 23px;
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 2px;
+  overflow: auto;
+  height: 396px
+}
+#scrollbar::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+#scrollbar::-webkit-scrollbar
+{
+  width: 8px;
+  background-color: #F5F5F5;
+}
+
+#scrollbar::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #27368a;
+}
+
+
+/*-----------------------we work------------------------------------------------------*/
+  .services-how-we-work hr{
+    transform: rotate(90deg);
+  }
+  .strong-p{
+    font-weight: 600;
+    font-size: 17px
+  }
+  .work-divs>div{
+     width: 52%;
+  }
+  .work-number{
+    width: 70px;
+    height: 70px;
+    font-size: 36px;
+    padding-top: 10px;
+    border-radius: 50%
+  }
+  .h170{
+    height: 200px
+  }
+  .v-line{
+    width: 2px;
+    border-left: 1px solid #27368A;
+  }
+  .work-divs-media{
+    display: none !important;
+  }
+  .our-team-section{
+    background: #D9D9D9;
+    box-shadow: inset 0px 2px 10px rgba(0, 0, 0, 0.25);
+  }
+  .join-span{
+    color: #1464FF;
+    text-decoration: underline;
+  }
+  .studies-divs>div{
+    width: 33%;
+    height: 300px;
+    background-size: cover!important;
+  }
+  .studies-divs>div:hover{
+    transform: scale(1.1);
+    transition: 1s
+  }
+  /*-------------------------our clients------------------------------------*/
+  .clients-divs>div{
+     width: 20%;
+     padding: 24px 0;
+  }
+  .clients-divs>div:not(:nth-child(n+6)){
+     border-bottom: 1px solid rgba(39, 54, 138, 0.4);
+  }
+  .clients-divs>div:not(:nth-child(5)){
+     border-right: 1px solid rgba(39, 54, 138, 0.4);
+  }
+  .clients-divs>div:nth-last-child(-n+1){
+     border-right: none
+  }
+  .clients-divs img{
+    width: 50%
+  }
+  .clinets-slid-a{
+    width: 4%
+  }
+  .clinets-slid-a span{
+    width: 40px;
+    height: 40px;
+    color: #fff !important;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.5));
+  }
+/*-------------------------------media max width 1024px--------------------------------------*/
+@media (max-width: 1024px) {
+  .hexagon-3 {
+      margin-left: 26.3%;
+      margin-top: -6.5%;
+  }
+}
+  /*-------------------------------media max width 768px--------------------------------------*/
+@media (max-width: 768px) {
+  .about-us{
+    background-size: 265px !important;
+  }
+  .about-us p{
+    padding: 0 6px;
+  }
+  .works-divs>div{
+     width: 46%;
+  }
+  .hexagon-divs>div{
+    width: 100% !important;
+    justify-content: center !important;
+  }
+  .hexagon-divs>div:first-child{
+     flex-flow: column-reverse;
+  }
+  .hexagon-divs>div:nth-child(2){
+     flex-flow: column;
+  }
+  .hexagon-divs>div:nth-child(3){
+     flex-flow: column;
+  }
+  .hexagon-divs .roboto{
+    width: 100% !important;
+    text-align: center !important;
+    margin: 20px 0
+  }
+  .hexagon{
+    width: 124px;
+    padding: 12px 0
+  }
+  .hexagon h2{
+    font-size: 20px
+  }
+  #vision, #mission{
+    width: 42px;
+    height: 32px
+  }
+  #values{
+    height: 32px
+  }
+  .hexagon-3{
+    margin-left: 0;
+    margin-top: 0
+  }
+
+  .our-history-section .container{
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important
+  }
+  .history-left{
+    width: 100%;
+    height: 300px
+  }
+  .history-right{
+    width: 100%
+  }
+  .history-right>div {
+    padding: 0 6px;
+    height: 290px;
+  }
+  .studies-divs>div{
+    width: 50%;
+    height: 300px;
+    background-size: cover!important;
+  }
+  /*----------------clients------------------*/
+  .s-div{
+    overflow: scroll;
+    width: 100%
+  }
+  .clients-divs{
+    width: max-content !important;
+    flex-wrap: nowrap !important;
+    overflow: scroll;
+  }
+  .clients-divs>div{
+    width: 250px ;
+    border-bottom: none !important;
+  }
+  .clinets-slid-a{
+    display: none;
+  }
+}
+
+
+
+/*-------------------------------media max width 425px--------------------------------------*/
+@media (max-width: 425px) {
+  .about-us{
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+    background-size: 300px !important
+  }
+  .works-divs>div{
+     width: 44%;
+  }
+  .works-divs{
+    margin-bottom: 20px !important
+  }
+  .works-divs>div{
+      padding-top: 30px;
+      background-position: 72% 0% !important;
+      margin: 30px 8px;
+  }
+  .lets-talk-section div:nth-child(1){
+    margin-right: 0 !important
+  }
+  .lets-talk-section div:nth-child(2){
+    margin-left: 0 !important;
+    margin-top: 10px
+  }
+  .history-right>div {
+    padding: 0 6px !important;
+    height: 440px !important;
+  }
+   /*----------------------we work---------------*/
+  .work-divs-media{
+    display: block !important;
+  }
+  .work-divs{
+    display: none !important;
+  }
+  .studies-divs>div{
+    height: 160px;
+  }
+  /*-----------client-------------*/
+  .clients-divs>div{
+    width: 138px ;
+  }
+}
+
+
+/*-------------------------------media max width 375px--------------------------------------*/
+@media (max-width: 375px) {
+  .works-divs>div{
+     width: 100%;
+  }
+   .studies-divs>div{
+    height: 140px;
+  }
+}
+
+
+/*-------------------------------media max width 320px--------------------------------------*/
+@media (max-width: 320px) {
+  .works-divs>div{
+     width: 100%;
+  }
+   .studies-divs>div{
+    height: 120px;
+  }
+}
+
+  

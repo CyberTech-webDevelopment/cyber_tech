@@ -1,0 +1,163 @@
+.borders{
+    border-top: 1px solid  #27368A !important; 
+    border-bottom: 1px solid #27368A  !important; 
+}
+.colored{
+    color:#27368A;  
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.is-active{
+    color:#3BABDE;
+    position: relative;
+    padding-bottom: 2px;
+
+}
+.is-active::after{
+    position: absolute; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%; 
+    height: 2px; 
+    border-bottom: 2px solid #3BABDE; 
+    content: ""
+}
+.colored:hover{
+    color:#27368A; 
+}
+
+.container-p{
+    font-size: 22px;
+    font-weight: lighter;
+}
+.services-call-to-action{
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+}
+
+.second-offers-section{
+    padding: 24px 0;
+    font-size: 22px;
+    font-weight: bold;
+    background: rgba(39, 54, 138, 0.63)
+}
+table {
+    border-spacing: 0;
+    }
+
+    td > div {
+    float: right;
+    }
+@media screen and (max-width: 885px) {
+    td {
+        display: block;
+        width: 100% !important;
+    }
+}
+.color{
+    color:#27368A; 
+}
+.lighter{
+    font-size: 14px;
+    padding-bottom: 7px;
+}
+.fix-width{
+    width: 70%;
+    
+}
+.bd-bottom{
+    height:1px;
+    width:70%;
+    margin:auto;
+    background-color:rgb(180, 177, 177);
+    margin-bottom: 20px;
+}
+.bord{
+    border-bottom: 1px solid #27368A;
+    margin-bottom: 20px;
+}
+.underline{
+    text-decoration: underline;
+    text-underline-position: under;
+    margin-bottom: 20px;
+}
+ /*-------- starting particular css------- */
+.first-f-item{
+    width: 52%;
+    align-self:flex-start;
+}
+
+.text1{
+    text-align: left;
+}
+.text2{
+    text-align: right;
+}
+
+.second-f-item{
+    vertical-align: top;
+    width: 47%;
+    background-image: url("../../images-all-services/3260177-1574105358 1.png");
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    align-self:flex-start;
+}
+.caption{
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+.list-ul li {
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.first-s-item{ vertical-align: top;
+    width: 44%;
+    background-image: url("../../images-all-services/audit-site-3dff9133 1.png");
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    align-self:flex-start;
+}
+.second-s-item{
+    width:54%;
+    align-self:flex-start;
+}
+.text{
+    line-height: 22px;
+}
+.first-s-item, .second-s-item, .first-f-item, .second-f-item{
+    margin-bottom: 40px;
+}
+@media screen and (max-width: 991px) {
+    .text{
+        font-size: 14px;
+    }
+    .list-ul li{
+        line-height: 19px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .s-flex{
+        flex-direction: column-reverse;
+    }
+    .first-s-item, .second-s-item, .first-f-item, .second-f-item{
+        width: 100%;
+        padding: 7px;}
+    .text2{
+        text-align: left;
+    }
+}

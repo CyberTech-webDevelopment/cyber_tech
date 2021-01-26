@@ -1,0 +1,155 @@
+.services-section .container p{
+  font-size: 22px
+}
+.join-our-team-call-to-action{
+   border-radius: 30px;
+    font-size: 20px;
+    border: none;
+}
+.hexagon-container{
+	width: 100%
+}
+.hexagon {
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    width: 214px;
+    padding: 68px 0;
+    font-size: 30px;
+    background: #27368A;
+    margin-left: 8px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.hexagon:nth-child(n+6){
+   position: relative;
+   top: -50px
+}
+.hex-active{
+	background: #fff;
+	color: #27368A
+}
+
+.job-description{
+   font-size: 20px;
+   border: 1px solid #969696;
+   box-sizing: border-box;
+}
+.text-bold{
+  font-weight: bold;
+  color: #000
+}
+.qualifications ul{
+  font-size: 30px;
+  color:  #27368A;
+}
+.qualifications ul li span{
+  padding: 5px;
+  font-size: 22px;
+  position: relative;
+  top: -3px;
+  color: #000
+}
+.applications input, .sel_vacancy{
+  border: none;
+  padding: 18px 6px 0;
+  font-size: 22px;
+  border-bottom: 1px solid grey;
+  background: none
+}
+.file-span{
+  font-size: 22px;
+  color: #000;
+  cursor: pointer;
+}
+#err_file span{
+  font-size: 14px
+}
+#upload_file{
+  display: none;
+}
+.join-team-btn{
+  font-size: 20px;
+  border: 1px solid #27368A;
+  border-radius: 30px;
+  padding: 8px 74px
+}
+.error{
+   color: red
+}
+.error-border{
+   border-bottom: 1px solid red !important;
+}
+#input-tel{
+  outline: none;
+  background: none;
+  height: unset !important;
+  padding-top: 16px;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+.selected-flag:focus{
+  outline: none;
+}
+.sel_vacancy:focus{
+  outline: none;
+}
+/*-------------tel----------------------*/
+.intl-tel-input {
+  display: table-cell;
+  width: 100%
+}
+.form-control:focus {
+  box-shadow: unset !important;
+}
+.intl-tel-input .selected-flag {
+  z-index: 4;
+  top: 67%;
+  height: unset !important;
+}
+.intl-tel-input .country-list {
+  z-index: 5;
+}
+
+/*.input-group .intl-tel-input .form-control {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 0;
+}*/
+/*----------------------media max width 1024px------------------------------------------*/
+@media (max-width: 1024px) {
+  .hexagon {
+      width: 178px;
+      padding: 50px 0
+  }
+  .hexagon:nth-child(n+6){
+   position: relative;
+   top: -39px
+  }
+}
+/*----------------------media max width 768px------------------------------------------*/
+@media (max-width: 768px) {
+   .hexagon-container{
+   	overflow: scroll;
+   }
+   .hexagon-divs{
+   	  flex-wrap: nowrap !important;
+   	  width: max-content !important
+   }
+   .hexagon{
+      position: unset !important;
+      top: 0 !important;
+   }
+   .applications>div{
+    width: 100% !important
+   }
+}
+/*----------------------media max width 425px------------------------------------------*/
+@media (max-width: 425px) {
+	.hexagon{
+	  width: 268px;
+      padding: 84px 0;
+      font-size: 44px
+   }
+   
+}

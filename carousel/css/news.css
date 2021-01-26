@@ -1,0 +1,131 @@
+#testimonials-services .testimonial-item {
+  box-sizing: content-box;
+  margin: 5px;
+  opacity: 0.8
+}
+
+@media (max-width: 767px) {
+  #testimonials-services .testimonial-item {
+    margin: 30px 10px;
+  }
+}
+#testimonials-services .owl-nav, #testimonials-services .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+#testimonials-services .owl-dot {
+  /*display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #89929b;*/
+  display: none;
+}
+
+#testimonials-services .owl-dot.active {
+  background-color: #1464FF;;
+}
+.testimonial-item:hover{
+  opacity: 1 !important;
+  z-index: 5;
+  position: absolute;
+  transform: scale(1.04);
+  transition: 1s
+}
+.testimonial-item:hover .new-trs-div h4{
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* -------------------my style-------------- */
+.news-background-image{
+   height: 300px
+}
+.container-carusel{
+  width: 100%;
+}
+.owl-carousel{
+  width: 100% !important;
+  margin: 0 auto;
+}
+.owl-stage-outer{
+  width: 94%;
+  margin: 0 auto
+}
+#testimonials-services .owl-nav{
+    top: 0;
+    width: 100%;
+    height: 97%;
+    z-index: -5;
+    display: block;
+    box-sizing: unset !important;
+}
+.owl-nav{
+  position: absolute;
+}
+.owl-prev{
+  display: block !important;
+  position: absolute;
+  height: 100%;
+  outline: none !important;
+}
+.owl-next{
+  display: block !important;
+  right: -8px;
+  position: absolute;
+  height: 100%;
+  outline: none !important;
+}
+.owl-prev span{
+  color: #3c3b3b;
+  font-size: 100px;
+}
+.owl-next span{
+  color: #3c3b3b;
+  font-size: 100px;
+}
+
+/*----------------------media max width 1024px------------------------------------------*/
+@media (max-width: 1024px) {
+  
+}
+/*----------------------media max width 768px------------------------------------------*/
+@media (max-width: 768px) {
+ 
+}
+/*----------------------media max width 425px------------------------------------------*/
+@media (max-width: 425px) {
+ 
+}
+
+/*----------------------media max width 375px------------------------------------------*/
+@media (max-width: 375px) {
+  
+}
+/*----------------------media max width 320px------------------------------------------*/
+@media (max-width: 320px) {
+ 
+}
+
+
+/*-----------------------------------------------------*/
+
+@media (max-width:425px){
+ 
+  #testimonials-services .container-fluid{
+     padding: 0 !important;
+     margin: 0 !important;
+  }
+  #testimonials-services .row{
+     padding: 0 !important;
+     margin: 0 !important;
+  }
+ 
+ .owl-stage-outer{
+     width: 100%
+ }
+ .owl-nav{
+  display: none !important;
+ }
+}

@@ -1,0 +1,140 @@
+.offers-divs>div{
+  height: 426px
+}
+.offers-divs>div:hover h2{
+  text-decoration: underline;
+}
+.offers-divs>div:hover{
+  transform: scale(0.99);
+}
+.offers-divs>div:hover .trns-offers{
+  padding: 4px
+}
+.container-p{
+  font-size: 22px;
+}
+.trns-offers{
+    position: absolute;
+    z-index: 1;
+    background: #00000080;
+    height:inherit;
+}
+.learn-more{
+   font-size: 22px;
+   cursor: pointer;
+}
+.carusel-img-media{
+    display: none;
+}
+.services-call-to-action{
+  border-radius: 30px;
+  font-size: 20px;
+  border: none;
+}
+.offers-divs h2{
+   font-size: 44px
+}
+.carusel-img, .carusel-img-media{
+  width: inherit !important;
+}
+.second-offers-section{
+  padding: 24px 0;
+  font-size: 22px;
+  font-weight: bold;
+  background: rgba(39, 54, 138, 0.63)
+}
+.second-offers-section div:first-child{
+  color: #27368A;
+}
+.second-offers-section div:nth-child(3){
+  border: 1px solid #fff;
+  border-radius: 30px
+}
+/*----------------------media max width 2560px------------------------------------------*/
+@media (max-width: 2560px) {
+  .offers-divs>div{
+    height: 640px
+  }
+}
+/*----------------------media max width 1800px------------------------------------------*/
+@media (max-width: 1800px) {
+  .offers-divs>div{
+    height: 426px
+  }
+}
+/*----------------------media max width 1440px------------------------------------------*/
+@media (max-width: 1440px) {
+  .offers-divs>div{
+    height: 426px
+  }
+}
+
+/*----------------------media max width 1024px------------------------------------------*/
+@media (max-width: 1024px) {
+  .offers-divs>div{
+    height: 354px
+  }
+  .second-offers-section div:first-child{
+    padding: 0 !important
+  }
+}
+
+/*----------------------media max width 768px------------------------------------------*/
+@media (max-width: 768px) {
+  .carusel-img-media{
+     display: block;
+  }
+  .carusel-img{
+     display: none;
+  }
+  .offers-divs h2{
+   font-size: 26px
+  }
+  .second-offers-section{
+    display: none;
+  }
+}
+/*----------------------media max width 425px------------------------------------------*/
+@media (max-width: 425px) {
+  .offers-divs>div{
+    height: 276px
+  }
+  .carousel-caption .p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .learn-more{
+    font-size: 18px
+  }
+  .d-none>div{
+    width: 70% !important;
+  }
+  .offers-divs h2{
+   font-size: 18px
+  }
+}
+
+/*----------------------media max width 375px------------------------------------------*/
+@media (max-width: 375px) {
+  .carousel-caption .p {
+    font-size: 20px;
+    line-height: 22px;
+  }
+}
+
+/*----------------------media max width 320px------------------------------------------*/
+@media (max-width: 320px) {
+  .offers-divs>div{
+    height: 228px
+  }
+  .learn-more{
+    font-size: 14px
+  }
+  .carousel-caption .p {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .offers-section h2{
+      font-size: 18px
+  }
+}

@@ -1,0 +1,42 @@
+.first-p{
+   font-size: 22px;
+}
+p{
+	font-size: 18px;
+	line-height: 20px
+}
+.projects-call-to-action{
+  border-radius: 30px;
+  font-size: 20px;
+  border: none;
+}
+.photos-divs{
+	height: 500px
+}
+.photos-divs>div{
+	height: 420px;
+	background-size: cover !important;
+}
+.photos-divs>div:nth-child(3){
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 100px auto;
+}
+.project-big-photo div{
+	height: 500px;
+	background-size: cover !important;
+}
+
+/*----------------------media max width 425px------------------------------------------*/
+@media (max-width: 425px) {
+  .photos-divs>div{
+	height: 260px;
+  }
+  .project-big-photo div{
+	height: 300px;
+  }
+  .photos-divs{
+	height: 340px
+  }
+}

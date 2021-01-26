@@ -1,0 +1,423 @@
+.borders{
+    border-top: 1px solid  #27368A !important; 
+    border-bottom: 1px solid #27368A  !important; 
+}
+.colored{
+    color:#27368A;  
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.is-active{
+    color:#3BABDE;
+    position: relative;
+    padding-bottom: 2px;
+
+}
+.is-active::after{
+    position: absolute; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%; 
+    height: 2px; 
+    border-bottom: 2px solid #3BABDE; 
+    content: ""
+}
+.colored:hover{
+    color:#27368A; 
+}
+
+.container-p{
+    font-size: 22px;
+    font-weight: lighter;
+}
+.services-call-to-action{
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+}
+
+.second-offers-section{
+    padding: 24px 0;
+    font-size: 22px;
+    font-weight: bold;
+    background: rgba(39, 54, 138, 0.63)
+}
+table {
+    border-spacing: 0;
+    }
+
+    td > div {
+    float: right;
+    }
+@media screen and (max-width: 885px) {
+    td {
+        display: block;
+        width: 100% !important;
+    }
+}
+.color{
+    color:#27368A; 
+}
+.lighter{
+    font-size: 14px;
+    padding-bottom: 7px;
+}
+.fix-width{
+    width: 70%;
+    
+}
+.bd-bottom{
+    height:1px;
+    width:70%;
+    margin:auto;
+    background-color:rgb(180, 177, 177);
+    margin-bottom: 20px;
+}
+.bord{
+    border-bottom: 1px solid #27368A;
+    margin-bottom: 20px;
+}
+.underline{
+    text-decoration: underline;
+    text-underline-position: under;
+    margin-bottom: 20px;
+}
+ /*-------- starting particular css------- */
+.width70{
+    width: 70%;
+    margin: auto;
+}
+.font-s-17{
+    font-size: 17px;
+    font-weight: 500;
+}
+.f-item-one{
+    width: 55%;
+}
+
+.f-item-two{
+    width: 43%;
+    background-image: url("../../images-all-services/machine-learning-image.png");
+    height: 322px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+.table-al{
+    color: #949393;
+    padding:0; 
+    margin:0;
+    border-collapse: collapse;
+}
+.spanbig{
+    color: #C5C8D8;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 78px;
+}
+.table-al td{
+    padding: 0;
+    margin: 0;
+    border: 1px solid #C5C8D8;
+}
+.num-flex{
+    align-items: center;
+    width:185px;
+}
+.num-f-item{
+    margin-left: 15px;
+}
+.one{
+    width: 70%;
+    font-style: italic;
+    line-height: 20px;
+    margin-top: 15px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.table-al td:hover{
+    color: #27368A;
+}
+.table-al td:hover .num-flex{
+    border: 1px solid #27368A;
+}
+.table-al td:hover .spanbig{
+    color:#27368A;
+}
+.feedback-absolute{
+    position: absolute;
+    width: 370px;
+    height: 226px;
+    background-color: white;
+    top: 244px;
+    left: 58px;
+    box-shadow: 0 0 14px grey;
+    padding: 7px;
+}
+
+.name{
+    font-weight: 500;
+    margin-top: 20px;
+}
+.position{
+    color: #27368A;
+    font-size: 12px;
+}
+.feedback-text{
+    font-size: 13px;
+    line-height: 15px;
+    color: rgb(80, 79, 79);
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+.carousel-indicators li {
+    cursor: pointer;
+    height: 9px;
+    width: 9px;
+    margin: 0 2px;
+    background: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    border:none;
+    }
+
+.carousel-indicators .active {
+    background: #27368A;
+    height: 9px;
+    width: 9px;
+}
+
+.carousel-indicators {
+    width: initial; 
+    margin-left: initial;
+    left: initial;
+    bottom: initial;
+    right: 98px;
+    top: 200px;
+}
+.slideNum {
+    display: none;
+}
+.tab-cont{
+    margin-top: 150px;
+    height: 380px;
+}
+.tab {
+    float: left;
+    background-color: #DEDEDE;
+    width: 40%;
+    height: 295px;
+    margin: 0;
+    padding: 0;
+}
+
+.tab button {
+    display: block;
+    background-color: #DEDEDE;
+    color: black;
+    padding: 12px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.tab button:hover {
+    background-color: #acacb1;
+}
+
+.tab button.active {
+    background-color: #27368A;
+    color: white;
+}
+.tab-caption{
+    padding: 20px;
+    margin-top: 15px;
+}
+.tab-text{
+    padding: 0 100px;
+    font-weight: lighter;
+}
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    background-color: #27368A;
+    color: white;
+    text-align: center;
+    width: 60%;
+    border-left: none;
+    height: 294px;
+}
+@media screen and (max-width: 1200px) {
+    .f-item-one{
+        width: 63%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .f-item-two{
+        width: 58%;
+        margin: auto;
+    }
+    .feedback-absolute{
+        top:150px;
+        left:90px;
+    }
+}
+@media screen and (max-width: 995px) {
+    .spanbig{
+        font-size: 60px;
+    }
+  
+    .num-flex{
+
+        width: 135px;
+    }
+    .num-f-item{
+        margin-left: 10px;
+    }
+    .one{
+        font-size: 11px;
+    }
+
+    .tab-caption{
+        padding: 0;
+        margin-top: 25px;
+    }
+    .tab-text{
+        padding: 0 25px;
+        font-weight: lighter;
+    }
+
+}
+@media screen and (max-width: 886px) {
+    .table-al td {
+        display: block;
+        width: 100% !important;
+    }
+    .table-al td{
+        border: none;
+    }
+    .num-flex{
+        border: 1px solid #C5C8D8;
+        width:250px;
+    }
+    .tabdiv{
+        width: 300px;
+        margin: auto;
+    }
+    .one{
+        font-size: 16px;
+    }
+ 
+    .spanbig{
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .feedback-absolute{
+        left:23px;
+    }
+}
+@media screen and (max-width: 768px) {
+   
+    .tabdiv{
+        width: 298px;
+    }
+    .f-item-two{
+        width: 418px;
+        margin: auto;
+    }
+    .tabcontent{
+        height: 316px;
+    }
+ 
+    .tab button{
+        padding: 12px 5px;
+        font-size: 12px;
+        line-height: 15px;
+        height: 65px;
+    }
+    .tab {
+        width: 30%;
+        height: 390px;
+        margin: 0;
+        padding: 0;
+    }
+    .tabcontent {
+        width: 70%;
+        height: 390px;
+    }
+    .tab-cont{
+
+        height: 500px;
+    }
+    .tab-caption{
+        margin-bottom: 35px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .tab-cont{
+        width: 90%;
+        margin: auto;
+        margin-top: 105px;
+        height: 450px;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    .tab {
+        width: 25%;
+    }
+    .tabcontent {
+        width: 75%;
+    }
+    .tab-text{
+        font-size: 12px;
+    }
+    .f-item-two{
+        width: 300px;
+    }
+    .feedback-absolute{
+        width: 260px;
+        left: 20px;
+        top: 120px;
+    }
+    .carousel-indicators {
+        right: 65px;
+    }
+}
+@media screen and (max-width: 486px) {
+    .num-flex{
+        width:190px;
+    }
+    .tabdiv{
+        width: 245px;
+
+    }
+}
+@media screen and (max-width: 350px) {
+    .num-flex{
+        width:160px;
+    }
+    .spanbig{
+        font-size: 60px;
+    }
+  
+    .one{
+        font-size: 11px;
+    }
+   
+
+}
+/* 

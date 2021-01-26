@@ -1,0 +1,198 @@
+.borders{
+    border-top: 1px solid  #27368A !important; 
+    border-bottom: 1px solid #27368A  !important; 
+}
+.colored{
+    color:#27368A;  
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.is-active{
+    color:#3BABDE;
+    position: relative;
+    padding-bottom: 2px;
+
+}
+.is-active::after{
+    position: absolute; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%; 
+    height: 2px; 
+    border-bottom: 2px solid #3BABDE; 
+    content: ""
+}
+.colored:hover{
+    color:#27368A; 
+}
+
+.container-p{
+    font-size: 22px;
+    font-weight: lighter;
+}
+.services-call-to-action{
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+}
+
+.second-offers-section{
+    padding: 24px 0;
+    font-size: 22px;
+    font-weight: bold;
+    background: rgba(39, 54, 138, 0.63)
+}
+table {
+    border-spacing: 0;
+    }
+
+    td > div {
+    float: right;
+    }
+@media screen and (max-width: 885px) {
+    td {
+        display: block;
+        width: 100% !important;
+    }
+}
+.color{
+    color:#27368A; 
+}
+.lighter{
+    font-size: 14px;
+    padding-bottom: 7px;
+}
+.fix-width{
+    width: 70%;
+    
+}
+.bd-bottom{
+    height:1px;
+    width:70%;
+    margin:auto;
+    background-color:rgb(180, 177, 177);
+    margin-bottom: 20px;
+}
+.bord{
+    border-bottom: 1px solid #27368A;
+    margin-bottom: 20px;
+}
+.underline{
+    text-decoration: underline;
+    text-underline-position: under;
+    margin-bottom: 20px;
+}
+ /*-------- starting particular css------- */
+ .width70{
+    width: 70%;
+    margin: auto;
+}
+
+.item-img{
+    width: 35px;
+}
+.f-item{
+    color: white;
+    text-align: center;
+    padding: 4px 4px 10px;
+    width: 25%;
+}
+.starter{
+    color: #3BABDE;
+    padding-top: 10px;
+    text-decoration: underline;
+    font-size: 18px;
+}
+.f-item{
+    align-self: flex-end;
+}
+.bg-color{
+    background-color: #27368A;
+}
+.bolder{
+    width: 90%;
+    font-weight: 500;
+    margin: auto;
+}
+.f-item-one{
+    width: 50%;
+}
+.f-item-one > ul{
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.f-item-one > ul li::before{
+    content: "•";
+    color: #27368A;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    font-weight: bolder;
+    font-size:25px;
+}
+
+.text-top{
+    text-align: left;
+    line-height: 21px;
+    font-weight: 400;
+    font-size: 15px;
+    font-weight: 500;
+}
+.f-item-two{
+    width: 47%;
+    background-image: url("../../images-all-services/EcClpRG_OS8 1.png");
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+@media screen and (max-width: 1200px) {
+    .f-item-one > ul li{
+        font-size: 14px;
+    }
+    .f-item-one > ul li::before{
+        font-size:25px;
+    }
+
+}
+@media screen and (max-width: 1010px) {
+    .f-item-one {
+        width: 80%;
+        margin:auto;
+    }
+    .f-item{
+        font-size: 14px;
+    }
+    .text-top{
+        text-align: center;
+    }
+    .f-item-two {
+        width: 60%;
+        margin:auto;
+        height: 333px;
+        width: 499px;
+        margin-top: 35px;
+    }
+}
+@media screen and (max-width: 555px) {
+    .f-item-two {
+        width: 80%;
+        margin:auto;
+        height: 333px;
+        width: 350px;
+        margin-top: 35px;
+    }
+    .f-item-one {
+        width: 80%;
+        margin: auto;
+    }
+    .f-item{
+        width: 100%;
+        margin-top: 15px;
+    }
+
+}
+

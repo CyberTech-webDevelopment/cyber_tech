@@ -1,0 +1,87 @@
+.contact-us-modal{
+    margin-right: 3rem;
+    padding-right: 3rem
+   }
+.contact-form input{
+	background: none;
+    font-size: 22px;
+    padding: 16px 0 0;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    color:#fff ;
+}
+.contact-form input::placeholder{
+	color:#fff;
+}
+.contact-hr{
+	width: 50px;
+    height: 2px;
+    background: #27368a;
+}
+#recaptchaid iframe{
+  width: 270px
+}
+/*-------------tel----------------------*/
+.intl-tel-input {
+  display: table-cell;
+  width: 100%
+}
+.form-control:focus {
+  box-shadow: unset !important;
+}
+#input-tel{
+  outline: none;
+  background: none;
+  height: unset !important;
+  padding-top: 16px;
+  border: none;
+  /*color: #fff;*/
+  border-bottom: 1px solid #fff;
+}
+.selected-flag:focus{
+  outline: none;
+}
+.intl-tel-input .selected-flag {
+  z-index: 4;
+  top: 67%;
+  height: unset !important;
+}
+.intl-tel-input .country-list {
+  z-index: 5;
+}
+input:active{
+	outline: none;
+	background: unset;
+}
+#upload_file_project{
+    display: none;
+}
+.error{
+   color: red;
+   font-size: 14px
+}
+.error-border{
+   border-bottom: 1px solid red !important;
+}
+
+/*----------------------media max width 768px------------------------------------------*/
+@media (max-width: 768px) {
+   .contact-us-modal{
+    margin-right: 0;
+    padding-right: 0 
+   }
+}
+/*----------------------media max width 425px------------------------------------------*/
+@media (max-width: 425px) {
+  .contact-form{
+    padding-right: 0 !important;
+    margin-right: 0 !important
+  }
+}
+/*----------------------media max width 320px------------------------------------------*/
+@media (max-width: 320px) {
+  .contact-right{
+    margin-left: 12px !important
+  }
+}

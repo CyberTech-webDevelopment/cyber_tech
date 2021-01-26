@@ -1,0 +1,125 @@
+.borders{
+    border-top: 1px solid  #27368A !important; 
+    border-bottom: 1px solid #27368A  !important; 
+}
+.colored{
+    color:#27368A;  
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.is-active{
+    color:#3BABDE;
+    position: relative;
+    padding-bottom: 2px;
+
+}
+.is-active::after{
+    position: absolute; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%; 
+    height: 2px; 
+    border-bottom: 2px solid #3BABDE; 
+    content: ""
+}
+.colored:hover{
+    color:#27368A; 
+}
+
+.container-p{
+    font-size: 22px;
+    font-weight: lighter;
+}
+.services-call-to-action{
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+}
+
+.second-offers-section{
+    padding: 24px 0;
+    font-size: 22px;
+    font-weight: bold;
+    background: rgba(39, 54, 138, 0.63)
+}
+table {
+    border-spacing: 0;
+    }
+
+    td > div {
+    float: right;
+    }
+@media screen and (max-width: 885px) {
+    td {
+        display: block;
+        width: 100% !important;
+    }
+}
+.color{
+    color:#27368A; 
+}
+.lighter{
+    font-size: 14px;
+    padding-bottom: 7px;
+}
+.fix-width{
+    width: 100%;
+}
+.bd-bottom{
+    height:1px;
+    width:70%;
+    margin:auto;
+    background-color:rgb(180, 177, 177);
+    margin-bottom: 20px;
+}
+.bord{
+    border-bottom: 1px solid #27368A;
+    margin-bottom: 20px;
+}
+.underline{
+    text-decoration: underline;
+    text-underline-position: under;
+    margin-bottom: 20px;
+}
+ /*-------- starting particular css------- */
+.container-main{
+    width: 73%;
+    margin: auto;
+}
+.q-a-img{
+    width: 100%;
+}
+.qa-item{
+    width: 50%;
+}
+.size18{
+    font-size: 18px;
+}
+.ts-text{
+    text-align: left;
+}
+.width-sp{
+    width: 60%;
+    margin: auto;
+}
+.center{
+    text-align: center;
+}
+.underline-q{
+    text-decoration-line: underline;
+    text-decoration-color:#3a39395e;
+}
+@media screen and (max-width: 1024px) {
+    .width-sp{
+       width:100%
+    }
+    .center{
+        text-align: left;
+    }
+}
+@media screen and (max-width: 768px) {
+    .qa-item{
+        width: 100%;
+    }
+}
