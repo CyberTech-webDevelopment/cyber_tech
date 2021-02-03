@@ -7,7 +7,10 @@
     </div>
 </section>
 
-<?php include "../nav-all-services/nav-product-design.php" ?>
+<section class="w-100 nav-container" id="product-design-cont">
+    <?php include "../nav-all-services/nav-all-services.php" ?>
+</section>
+
 
 <div class="container fix-width">
     <div class="text-center pt-3 ">
@@ -83,3 +86,4 @@
         <div class="button-more"><button class="more prototype">More</button></div>
     </div>
 </div>
+<script src="all-services.js"></script>

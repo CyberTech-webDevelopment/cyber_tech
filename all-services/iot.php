@@ -7,7 +7,10 @@
     </div>
 </section>
 
-<?php include "../nav-all-services/nav-iot.php" ?>
+<section class="w-100 nav-container" id="iot-cont">
+    <?php include "../nav-all-services/nav-all-services.php" ?>
+</section>
+
 
 <div class="container fix-width">
     <div class="text-center pt-3 ">
@@ -17,7 +20,7 @@
             wireless network, with little or no human-to-human or human-to-computer intervention.
         </p>
 
-        <div class="flex-hoverable" data-toggle="collapse" data-target="#demo" >
+        <div class="flex-hoverable" data-toggle="collapse" data-target="#demo">
             <div class="item-hov" id="demo" class='collapse'>
                 <div><img src="../images-all-services/iot1.png" alt="" class="img-hov"></div>
                 <div>Strategic IoT consulting</div>
@@ -116,3 +119,4 @@
         <div class="button-more"><button class="more prototype">More</button></div>
     </div>
 </div>
+<script src="all-services.js"></script>

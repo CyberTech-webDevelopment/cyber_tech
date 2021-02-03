@@ -6,8 +6,9 @@
         <button class="background-site-color text-white prototype services-call-to-action pl-5 pr-5 pt-2 pb-2 ml-auto mr-auto">Call To Action</button>
     </div>
 </section>
-
-<?php include "../nav-all-services/nav-al-ml.php" ?>
+<section class="w-100 nav-container" id="al-ml-cont">
+    <?php include "../nav-all-services/nav-all-services.php" ?>
+</section>
 
 <section class="w-100 container pl-0 pr-0 main-sec">
     <div class="text-center pt-3 ">
@@ -110,7 +111,7 @@
         </div>
     </div>
 
-    
+
     <div class="tab-cont">
         <h4 class='prototype color'>Our machine learning offerings</h4>
         <div class="tab">
@@ -154,22 +155,5 @@
 
     </div>
 </section>
-
-<script>
-
-    document.getElementById("defaultOpen").click();
-
-    function openSec(evt, cityName) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        document.getElementById(cityName).style.display = "block";
-        evt.currentTarget.className += " active";
-    }
+<script src="all-services.js">
 </script>

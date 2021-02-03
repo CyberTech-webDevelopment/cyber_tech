@@ -7,7 +7,11 @@
     </div>
 </section>
 
-<?php include "../nav-all-services/nav-mobile-development.php" ?>
+
+<section class="w-100 nav-container" id="mobile-development-cont">
+    <?php include "../nav-all-services/nav-all-services.php" ?>
+</section>
+
 
 <div class="container fix-width">
     <div class="text-center pt-3 ">
@@ -44,3 +48,4 @@
     </div>
 
 </div>
+<script src="all-services.js"></script>
