@@ -7,7 +7,13 @@
     </div>
 </section>
 
-<?php include "../nav-all-services/nav-data-science.php" ?>
+
+
+<section class="w-100 nav-container" id="data-science-cont">
+    <?php include "../nav-all-services/nav-all-services.php" ?>
+</section>
+
+
 <section class="w-100 container pl-0 pr-0">
     <div class="text-center pt-3 ">
         <h5 class="prototype color">Data Science</h5>
@@ -42,15 +48,16 @@
     </div>
 </section>
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      hhhhhh
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            hhhhhh
+        </div>
+        <div class="carousel-item">
+            hhhfsgfjhjfgkj
+        </div>
+        <div class="carousel-item">
+            jjvhgc
+        </div>
     </div>
-    <div class="carousel-item">
-      hhhfsgfjhjfgkj
-    </div>
-    <div class="carousel-item">
-     jjvhgc 
-    </div>
-  </div>
 </div>
+<script src="all-services.js"></script>

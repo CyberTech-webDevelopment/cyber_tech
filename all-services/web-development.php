@@ -7,9 +7,13 @@
     </div>
 </section>
 
-<?php include "../nav-all-services/nav-web-development.php" ?>
+<section class="w-100 nav-container" id="web-development-cont">
+    <?php include "../nav-all-services/nav-all-services.php" ?>
+</section>
 
-<div class="container fix-width"> 
+
+
+<div class="container fix-width">
     <div class="text-center pt-3 ">
         <h5 class="prototype color">Web Development</h5>
         <p class='lighter'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit id fuga repellat odit nostrum earum cumque voluptate labore nesciunt iusto dolor unde atque, ipsam iure dolorum possimus ullam dolorem. Magni ratione ea nemo quae tempora, nobis ut?
@@ -56,3 +60,4 @@
         </div>
     </div>
 </div>
+<script src="all-services.js"></script>

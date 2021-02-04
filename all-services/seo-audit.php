@@ -7,7 +7,9 @@
     </div>
 </section>
 
-<?php include "../nav-all-services/nav-seo-audit.php" ?>
+<section class="w-100 nav-container" id="seo-audit-cont">
+    <?php include "../nav-all-services/nav-all-services.php" ?>
+</section>
 
 <section class="w-100 container pl-0 pr-0">
     <div class="text-center pt-3 ">
@@ -55,3 +57,4 @@
         </div>
 
 </section>
+<script src="all-services.js"></script>

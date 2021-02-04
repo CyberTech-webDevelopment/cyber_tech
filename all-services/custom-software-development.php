@@ -6,7 +6,11 @@
         <button class="background-site-color text-white prototype services-call-to-action pl-5 pr-5 pt-2 pb-2 ml-auto mr-auto">Call To Action</button>
     </div>
 </section>
-<?php include "../nav-all-services/nav-custom-software-development.php"?>
+
+<section class="w-100 nav-container" id="custom-software-development-cont">
+    <?php include "../nav-all-services/nav-all-services.php" ?>
+</section>
+
 
 <div class="container fix-width">
     <div class="text-center pt-3 ">
@@ -19,7 +23,7 @@
     </div>
     <div class="bd-bottom"> </div>
 </div>
-<section class="w-100 container pl-0 pr-0 mt-4 mb-5 pb-2" >
+<section class="w-100 container pl-0 pr-0 mt-4 mb-5 pb-2">
     <div class="d-flex flex-wrap justify-content-between flex-container mb-3">
         <div class="flex-item pt-3 pl-2 box">
             <div class="prototype font-17">Want to optimize internal business process?</div>
@@ -83,3 +87,4 @@
 
     </div>
 </section>
+<script src="all-services.js"></script>

@@ -6,7 +6,11 @@
         <button class="background-site-color text-white prototype services-call-to-action pl-5 pr-5 pt-2 pb-2 ml-auto mr-auto">Call To Action</button>
     </div>
 </section>
-<?php include "../nav-all-services/nav-quality-assurance.php" ?>
+
+<section class="w-100 nav-container" id="quality-assurance-cont">
+    <?php include "../nav-all-services/nav-all-services.php" ?>
+</section>
+
 
 <div class="container fix-width">
     <div class="text-center pt-3">
@@ -53,3 +57,4 @@
         </div>
     </div>
 </section>
+<script src="all-services.js"></script>
