@@ -155,5 +155,5 @@
 
     </div>
 </section>
-<script src="all-services.js">
-</script>
+
+<script src="../js/all-ml.js"></script>

@@ -86,4 +86,3 @@
         <div class="button-more"><button class="more prototype">More</button></div>
     </div>
 </div>
-<script src="all-services.js"></script>

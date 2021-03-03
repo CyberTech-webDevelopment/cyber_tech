@@ -57,4 +57,3 @@
         </div>
 
 </section>
-<script src="all-services.js"></script>

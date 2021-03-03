@@ -48,4 +48,3 @@
     </div>
 
 </div>
-<script src="all-services.js"></script>
